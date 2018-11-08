@@ -11,7 +11,7 @@ void Video_To_Image(string filename);
 
 int main(int argc, char* argv[])
 {
-	string video_name = "deqing.mp4";
+	string video_name = "test.mp4";//修改视频路径和名称的地方
 	Video_To_Image(video_name);
 	return 0;
 }
